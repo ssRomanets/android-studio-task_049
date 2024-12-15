@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id = "@+id/startAnimLayoutLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/shopViewIV"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal = "true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/milk"/>
+
+        <TextView
+            android:id="@+id/nameTV"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Молоко." />
+
+        <TextView
+            android:id="@+id/descriptionTV"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Свежий молочный продукт!" />
+
+        <Button
+            android:id="@+id/buyBtn"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Купить!" />
+    </LinearLayout>
+
+</LinearLayout>
